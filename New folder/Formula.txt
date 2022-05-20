@@ -1,0 +1,353 @@
+     <-----PHYSICAL CONSTANTS----->
+
+1.  Speed of light =  3 * 10^8 m/s
+2.  Planck constant (h) =  6.63 * 10^-34 J s
+                   (hc) = 1242 eV-nm
+3.  Gravitation constant = 6.67*10^-11 m^3 kg^-1 s^-2
+4.  Boltzmann constant =  1.38 * 10^-23 J/K
+5.  Molar gas constant = 8.314 J/(mol K)
+6.  Avogados number = 6.023 * 10^23 mol^−1
+7.  Charge of electron = 1.602 * 10^-19 C
+8.  Permeability of vacuum = 4pi * 10^-7 N/A^2
+9.  Permitivity of vacuum = 8.85 * 10^-12 F/m
+10. Coulomb constant = 9 * 10^9 N m^2/C^2
+11. Faraday constant = 96485 C/mol
+12. Mass of electron = 9.1 * 10^-31 kg
+13. Mass of proton = 1.6726 * 10^-27 kg
+14. Mass of neutron = 1.6749 * 10^-27 kg
+15. Atomic mass unit = 1.66 * 10^-27 kg
+16. Atomic mass unit = 931.49 MeV/c^2
+17. Stefan-Boltzmann constant = 5.67*10^-8 W/(m^2 K^4)
+18. Rydberg constant = 1.097 * 10^7 m^-1
+19. Bohr magneton = 9.27 * 10^-24 J/T
+20. Bohr radius = 0.529 * 10^-10 m
+21. Standard atmosphere = 1.01325 * 10^5 Pa
+22. Wien displacement constant = 2.9 * 10^-3 m K
+
+     <-----Formula Lists----->
+
+MOTION IN ONE DIMENSION
+
+1.  s = ut + (at^2)/2
+2.  v = u + at
+3.  v^2 = u^2 + 2as
+4.  Average Velocity = (v+u)/2
+
+Momentum, Force and Impulse
+
+1.  Momentum(p) = mass * Velocity
+2.  Force = mass * acceleration
+3.  Impulse = mass * (Final velociti - Initial Velcity)
+
+Pressure
+
+1.  Pressure = Force / area
+
+Density
+
+1. Density = Mass / Volume
+
+Angular Momentum
+
+1.  Angular Momentum = radius vector(r) * linear momentum(p)
+
+Torque
+
+1.  Torque = radius vector(r) * linear force(F)
+
+Circular Motion
+
+1.  Centripetal Force (F) = (m * v^2) / r
+2.  Centripetal Acceleration (a) = (v^2) / radius
+
+     mass = m
+     velecoty = v
+     radius = r
+
+Work and Energy
+
+1.  Work Done (W) = Force * displacement
+2.  Potential Energy (P.E) = mass * acceleration due to gravity * height
+3.  Kinetic Energy (K.E) = (mass * velocity^2) / 2
+
+Power
+
+1.  Power (P) = work done / time(t)
+2.  Electrical Power (P) = V^2 / R      
+                   V = voltage
+                   R = resistance  
+
+Friction
+
+1.  Static Friction = Applied Tangential Force (F) / Normal Force(N)
+
+Moment of Inertia
+
+  Object       Axis                                                       Moment of Inertia
+1 Disk         Axis parallel to disc, passing through the center          (M * R^2) / 2
+2 Disk         Axis passing through center and perpendicular to disc      (M * R^2) / 2
+3 Thin Rod     Axis perpendicular to rod and passing through center       (M * L^2) / 12
+4 Solid Sphere Axis passing through center                                (2 * M * R^2) / 5
+5 Solid Shell  Axis passing through the center                            (2 * M * R^2) / 3
+
+Newtonian gravity
+
+Newton's Law of Universal Gravitation
+
+1.  F = (G * m1 * m2) / r^2
+
+   m1 , m2 = masses of two bodies
+   G = universal gravitational constant
+   r = distance between two bodies
+
+2. Formula for escape velocity (V) = (2 * G * M / R)^12
+   M = mass of central gravitating body
+   R = radius of central body
+
+Projectile Motion
+
+1.  Max height of projectile (h) = ((Vo)^2 * sin^2 p) / 2g
+2.  Horizontal range of projectile (l) = (Vo)^2 sin 2p / g
+    V = velocity of particle
+    Vo = initial velocity
+    g = acceleration due to gravity
+    p = angle of projection
+    h = max height
+    l = range of projectile
+
+Pendulum
+
+1. Period of simple pendulum (T) = 2 * pi * Sq.root(l / g)
+2. Period of conical pendulum (T) = 2 * pi * Sq.root(l * cosP / g)  
+    l = length of pendulum
+    g = acceleration due to gravity
+    P = half angle of conical pendulum
+
+Electricity
+
+Ohm's Law
+  V(voltage) = I(current) * R(resistance)
+
+Power
+  P(power) = V^2 / R = I^2 * R
+     V = R
+
+Kirchoff's Voltage/Current Law
+1.  (SUM of voltage (V) at every node)V = 0
+2.  (SUM of current (I) at every node)I = 0
+
+Resistance
+
+For series combination
+ R(equevalent) = R1 + R2 + R3 +....Rn
+For parallel combination
+ 1 / R(equevalent) = 1/R1 + 1/R2 + 1/R3 +....+1/Rn  
+
+Capacitors
+
+Note :
+Unit of capacitance is Farad(F)
+Value of capacitance are generally specified in mF (micro Farad = 10^-6)
+
+1.  Capacitance (C) = Q / V
+2.  Energy Stored in a Capacitor (Ecap) = 1/2 * C * V^2 = 1/2 * (Q^2 / C) = 1/2 * (Q * V)
+3.  Equivalent capacitance for ‘n’ capacitors connected in parallel:
+    Ceq (Parallel) = C1 + C2 + C3…+ Cn 
+4.  Equivalent capacitance for ‘n’ capacitors in series: 
+    1 / Ceq (Series) = 1 / C1 + 1 / C2…+ 1 / Cn 
+
+    C = capacitance
+    Q = charge stored on each conductor in the capacitor
+    V = potential difference across the capacitor      
+
+5. Parallel Plate Capacitor Formula: C = k * Eo (A/d) 
+   
+   k = dielectric constant (k = 1 in vacuum)
+   Eo = Permittivity of Free Space 
+   A = Plate Area (in square meters)
+   d = Plate Separation (in meters)
+
+6.  Cylindrical Capacitor Formula: C = 2 * pi * k * Eo [L / ln(b / a)]    
+   
+    k = dielectric constant (k = 1 in vacuum)
+    Eo = Permittivity of Free Space 
+    L = Capacitor Length
+    a = Inner conductor radius
+    b = Outer conductor radius
+
+7.  Spherical Capacitor Formula: C = 4 * pi * k * Eo [(ab)/(b-a)]    
+
+    k = dielectric constant (k = 1 in vacuum)
+    Eo = Permittivity of Free Space 
+    L = Capacitor Length
+    a = Inner conductor radius
+    b = Outer conductor radius
+
+Inductors
+
+Note:
+Unit of inductance is Henry
+
+1.  Energy Stored in Inductor (Estored) = 1/2 (L * I^2)
+    L = inductance
+    I = current flowing through inductor
+2.  Inductance of a cylindrical air core Coil (L) = (Mo * K * N^2 * A / l)
+     L = inductance measured in Henries
+     N = number of turns on the coil
+     A = cross-sectional area of the coil
+     Mo = permeability of free space 
+     K = Nagaoka coefficient
+     l = length of coil  
+3.  Inductors in series combination     
+     L(equevalent) = L1 + L2…+ Ln 
+4.  Inductors in parallel combination
+     1 / L(equivalent) = 1 / L1 + 1 / L2…+ 1 / Ln   
+
+Thermodynamics
+
+1. First Law of Thermodynamics : dU = dQ + dW
+   dU = change in internal Energy
+   dQ = heat absorbed by system
+   dW = work done in system
+
+2. Thermodynamic Potentials  
+
+  Thermodynamic Potential                               Defining Equation
+
+  a. Internal Energy (U)                                  dU = T * dS - p * dV + u * dN  
+  b. Enthalpy (H)                                          H = U + p * V
+                                                          dH = T * dS + V * dp + u * dN 
+
+  c. Gibbs Free Energy (G)                                 G = U - T * S + p * V = F + p * V = H - T * s
+                                                          dG = -S * dt + V * dp + u * dN    
+  d. Helmholtz Free Energy (F)                             F = U - T * S
+                                                          dF = -S * dT - p * dV + u * dN        
+
+        U = Energy
+        T = temperature
+        S = Entropy
+        N = particle number
+        µ = Chemical Potential
+        p = Pressure
+        V = Volume
+        H = Enthalpy
+        G = Gibbs Free Energy
+        F = Helmholtz Free Energy
+
+Ideal Gas Equation
+
+     Law                                    Equation
+ a. Boyle's Law                             P * V = constant, or 
+                                            P1 * V1 = P2 * V2  (At constant Temperature)
+
+ b. Charle's Law                            V / T = constant, or                                                       
+                                            V1 / T1 = V2 / T2 (At constant Pressure)
+
+ c. Amonton's Law of pressure               P / T = constant, or        
+    and temperature                         P1 / T1 = P2 / T2 (At constant Volume)
+ 
+ d. Equation of State for an                P * V = n * R * T = N * K * T
+    Ideal Gas                                                            
+       
+        P = Pressure
+        V = Volume
+        T = Temperature
+        n = the number of moles
+        R = the ideal gas constant [= 8.3144621(75) J / K mol]
+        N = the number of particles
+        k = the Boltzmann Constant = 1.3806488(13)*10^-23)
+
+Heat Capacities
+1.  Heat Capacity at Constant Pressure (Cp) = 5/2 Nk = Cv + Nk
+2.  Heat Capacity at Constant Volume (Cv) = 3/2 Nk
+3.  Ratio of Heat Capacities  = Cp / Cv = 5/3
+                                                       
+Velocity Formulas
+1.  Mean Molecular Velocity (Vmean) = [(8 * k * T) / (pi * m)]^1/2
+2.  Root Mean Square Velocity of a Molecule (Vrms) = (3 * k * T / m)^1/2
+3.  Most Probable Velocity of a Molecule (Vprob) = (2 * k * T / m)^1/2
+4.  Mean Free Path of a Molecule = (k * T) /Sq.root(2 * pi * d^2 * P) (Here P is in Pascals)
+   
+    N = number of molecules
+    K = Boltzmann constant
+    P = pressure
+    d = molecular diameter
+    m = mass of molecules
+    T = gas temperature
+
+Electromagnetism
+
+  Columbic force (F) = (q1 * q2) / (4 * pi * Eo * r^2)
+  Lorentz Force (F) = q * (E + v * B)
+
+     q1, q2 = charges
+     Eo = permittivity of free space
+     r = distance between the two charges
+     q = charge on the particle
+     E and B = electric and magnetic field vectors
+
+Optics
+
+1.  Snell's Law
+    (sin i / sin r) = n2 / n1 = v1 / V2
+         i = angle of incidence
+         r = angle of refraction
+         n1 = refractive index of medium 1
+         n2 = refractive index of medium 2
+         v1, v2 = velocities of light in medium 1 and medium 2 respectively
+
+2.  Gauss Lens Formula : 1 / u + 1 / v = 1 / f
+         u = object distance
+         v = image distance
+         f = Focal length of the lens
+
+3.  Lens Maker's Equation
+     1 / f = [n-1] * [(1 / R1) – (1 / R2) + (n-1) * d / n * R1 * R2)]      
+        n = refractive index of the lens material
+        R1 = the radius of curvature of the lens surface, facing the light source
+        R2 = the radius of curvature of the lens surface, facing away from the light source
+        d = lens thickness
+
+     Note :
+     If the lens is very thin, compared to the distances – R1 and R2, the above formula can be approximated to:
+
+     (Thin Lens Approximation) 1 / f ≈ (n-1) [1 / R1– 1 / R2]
+
+4.  Compound Lenses
+
+    The combined focal length (f) of two thin lenses, with focal length f1 and f2, in contact with each other:
+      1 / f = 1 / f1 + 1 / f2    
+
+    If the two thin lenses are separated by distance d, their combined focal length is provided by the formula: 
+      1 / f = 1 / f1 + 1 / f2 – (d / f1 – f2))     
+
+5.  Newton's Ring Formula
+  
+   nth Dark ring formula:
+      r2n = n * R * wavw-length
+   nth Bright ring formula:
+      r2n = (n + 1/2) R * wave-length
+
+       rn = nth ring radius
+       R = Radius of curvature of the lens
+
+Quantum Physics
+
+1.  De Broglie wave
+
+   De Broglie Wavelength = h / P
+     h = planck's constant
+     p = momentum of particle
+
+2.  Bragg's Law of Diffraction = 2 * a * sin P = n * wavelength of incident radiation
+     a = Distance between atomic planes
+     n = Order of Diffraction
+     P = Angle of Diffraction       
+
+3.  Planck Relation
+      E = h * v
+
+       h = Planck's Constant
+       v = frequency of radiation 
+       Note :The plank relation gives the connection between energy and frequency of an electromagnetic wave    
+       
